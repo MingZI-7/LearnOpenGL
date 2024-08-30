@@ -26,7 +26,7 @@ INCLUDE	:= include
 # define lib directory
 LIB		:= lib
 
-Libraries   := -lglad -lglfw3dll
+Libraries   := -lglad -lglfw3 -lopengl32 -lgdi32
 
 ifeq ($(OS),Windows_NT)
 MAIN	:= main.exe

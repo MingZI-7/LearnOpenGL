@@ -3,7 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:/Development/MinGW/include/**",
+                "C:/Development/mingw64/include/**",
                 "${workspaceFolder}/**"
             ],
             "defines": [
@@ -14,7 +14,7 @@
             "cStandard": "c17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-x86",
-            "compilerPath": "C:/Development/MinGW/bin/g++.exe"
+            "compilerPath": "C:/Development/mingw64/bin/g++.exe"
         }
     ],
     "version": 4
